@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+*{
+	font-family:'Open Sans', sans-serif ;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*--CSS --MENU-PROMOS-NOS-CONTACTO*/
+a img{
+	width: 50%;
+	padding: 1%;
+	margin: 1%;
+}
+
+body{
+	background-image: url(../img/fondo-arena.png);
+	background-repeat: repeat
+}
+
+/*---only title viñeta---*/
+.nombrePag{
+	color: rgba(233, 232, 230, 1);
+	text-align: center;
+	font-size: 1.8rem;
+	padding: 0.5%;
+	margin: 0.5%;
+	background-color: rgba(165, 135, 117, 1);
+}
+
+/*---posicion de texto---*/
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+/*---negrita y altura de texto---*/
+
+.textGrueso{
+	font-weight: 700;
+}
+
+.textAlto{
+	line-height: 2;
+}
+
+/*---color de texto---*/
+
+.textDark{
+	color: #252525;
+}
+
+.textColo{
+	color: rgba(191, 101, 93, 1);
+}
+
+/*---back-grounds color and image---*/
+
+.bgDarkArena{
+	background-color: rgba(165, 135, 117, 1);
+	border-bottom: 2px solid rgba(191, 101, 93, 1);
+	font-size: 1.3rem;
+}
+
+.bgPink{
+	background-color: rgba(242, 198, 193, 1);
+	padding: 1%;
+	margin: 1%;
+	border-bottom: 3px solid #F27457;
+}
+
+.bgLima{
+	background-color: rgba(219, 242, 38, 1);
+	font-size: 1.5rem;
+}
+
+.bgGreen{
+	background-color: rgba(3, 191, 156, 1);
+	font-size: 1rem;
+	margin: 1%;
+	text-align: center;
+}
+
+.bgImg{
+	background-image: url(../img/palmeras.png);
+	background-repeat: no-repeat;
+	font-size: 2rem;
+}
+
+.bgLila{
+	background-color: rgba(204, 182, 179, 1);
+}
+
+.ulLi-contacto{
+	list-style: none;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+/*---tamaño imagenes---*/
+
+.imgS{
+	width: 35%;
+	height: auto;
+}
+
+.imgM{
+	width: 48%;
+	height: auto;
+}
+
+.imgL{
+	width: 85%;
+	height: auto;
+}
+
+/*-----FLEXBOX-----*/
+/*---PROPIEDADES XADRES---*/
+
+.container{
+	padding: 3%;
+	display: flex;
+}
+
+/*-FLEXBOX-direction-*/
+.flexDrowr{
+	flex-direction: row-reverse;
+}
+
+.flexDrow{
+	flex-direction: row;
+}
+
+.flexDcolumn{
+	flex-direction: column;
+}
+
+/*-FLEXBOX-wrap/salto-linea-*/
+.flexnoWrap{
+	flex-wrap: nowrap;
+}
+
+.flexWrap{
+	flex-wrap: wrap;
+}
+
+/*-FLEXBOX-justify-content-eje-X---horizontal-*/
+
+.justifyCcenter{
+	justify-content: center;
+}
+
+.justifyCsb{
+	justify-content: space-between;
+}
+
+/*-FLEXBOX-align-eje-Y---vertical-*/
+
+.alignIcenter{
+	align-items: center
+}
+
+.alignIend{
+	align-items: flex-end;
+}
+
+.alignCsb{
+	align-content: space-between;
+}
+
+/*---PROPIEDADES GALERIA "NOSOTRES"---*/
+
+.containerNos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 5px;
+	width: 50%;
+	align-content: center;
+}
+
+.column{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.column img{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+
+/*---PROPIEDADES HIJXS---*/
+
+.flexGrow1{
+	flex-grow: 1;
+}
+
+.flexGrow2{
+	flex-grow: 2;
+}
+
+.flexGrow3{
+	flex-grow: 3;
+}
+
+.alignSstart{
+	align-self: flex-start;
+}
+/*-----termina FLEXBOX-----*/
+
+
+/*--CSS - GRIDS -- INDEX---*/
+
+.imgSg{
+	max-width: 30%;
+}
+.imgMg{
+	max-width: 65%;
+}
+.imgLg{
+	max-width: 98%;
+}
+
+/* - - - GRID-CONTENEDOR - XADRE - - -*/
+.containerGrid {  
+	display: grid;
+	background-image: url(../img/fondo-arena.png);
+	background-repeat: repeat;
+ 	grid-template-columns: 2fr 2fr 2fr 1fr;
+  	grid-template-areas:
+    "nav nav nav nav"
+    "header header header header"
+    "main main main aside"
+    "main main main aside"
+    "footer footer footer footer";
+}
+
+/* --clase NAV--HIJX*/
+.nav { 
+	grid-area: nav; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgba(202, 154, 42, 1);
+	align-items: flex-end;
+}
+
+.logoDesktop{
+	width: 50%;
+	padding: 5%;
+}
+
+/*--COMBINADA - CLASE nav + ETIQUETA ul-li-a--*/
+.nav ul{
+	margin: 1%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav li{
+	list-style: none;
+}
+
+.mainNos li{
+	list-style: none;
+}
+
+/* --hover= color rosa al pasar sobre las pags*/
+.nav li:hover{
+	background-color: rgba(242, 48, 4, 1);
+}
+
+.nav a{
+	text-decoration: none;
+	color: #252525;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: row;
+}
+
+/* --clase HEADER--HIJX*/
+.header { 
+	grid-area: header; 
+	min-height: 15vh;
+	background-color: rgba(2, 114, 73, 1);
+	text-align: center;
+	margin: 2rem;
+}
+
+.header h1{
+	/*--unidad de MEDIDA RELATIVA - 1rem -> 16px--*/
+	margin: 1rem;
+}
+.header h2{
+	border-bottom: solid #F27457 5px;
+}
+
+/* --clase MAIN--HIJX*/
+.main {
+	 grid-area: main; 
+	 margin: 1rem;
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: space-between;
+	 align-items: center;
+}
+
+/* --clase ASIDE--HIJX*/
+.aside { 
+	grid-area: aside; 
+}
+
+.aside p{
+	font-size: 1.8rem;
+	text-align: center;
+	background-color: rgba(219, 242, 38, 1);
+	border: 3px solid #F27457;
+}
+
+/* --clase FOOTER--HIJX*/
+.footer { 
+	grid-area: footer; 
+	background-image: url(../img/fondo-arena.png);
+	background-repeat: repeat;
+}
+
+.footer h3{
+	text-align: center;
+	background-color: rgba(242, 198, 193, 1);
+	padding: 1%;
+	margin: 1%;
+	border-bottom: 3px solid #F27457;
+}
+
+.footer p{
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.footer i{
+	font-size: 2rem;
+	top: 0;
+	left: 0;
+	color: rgba(233, 232, 230, 1);
+}
+
+.footer i:hover{
+	background-color: rgba(242, 48, 4, 1);
+}
+
+.footer h4{
+	text-align: right;
+	font-size: 1rem;
+}
+/*termina = CSS -- GRIDS -- INDEX*/
+
+
+/*----------------------RESPONSIVE- DESIGN -------------------*/
+/*---MEDIA QUERY - MOBILE LAST = MAX-WIDTH -(mobile-first = min-width---*/
+
+/*dispositivos tipo TABLET-INDEX-*/
+@media (max-width: 768px) {
+	.containerGrid {
+		background-image: url(../img/fondo-arena2.png);
+		background-repeat: repeat;
+		grid-template-areas:
+		    "nav nav nav nav"
+		    "header header header header"
+		    "main main main main"
+		    "aside aside aside aside"
+		    "footer footer footer footer";
+	}
+
+	.nav a{
+		text-decoration: none;
+		color: #252525;
+		padding: 5px;
+		font-weight: 600;
+		font-size: 1rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.aside p{
+		font-size: 1rem;
+		background-color: rgba(117, 177, 172, 1);
+		margin: 1%;
+	}
+
+	.footer { 
+	background-image: url(../img/fondo-arena2.png);
+	background-repeat: repeat;
+
+	}
+
+	.footer i:hover{
+	background-color: rgba(0, 91, 82, 1);
+	}
+
+	.footer h3{
+		text-align: center;
+		background-color: rgba(191, 101, 93, 1);
+		margin: 1%;
+		border-bottom: 3px solid #F27457;
+	}
+
+	/*----media para MENU----*/
+
+	.mainMenug{
+		background-image: url(../img/fondo-arena2.png);
+		background-repeat: repeat;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.mainMenug h1{
+		background-color: rgba(242, 167, 140, 1);
+	}
+
+	.mainMenug h2{
+		background-color: rgba(1, 89, 57, 1);
+		color: rgba(214, 212, 142, 1);
+	}
+	/*termina media para MENU*/
+
+	/*----media para PROMOS----*/
+	.mainPromo{
+		background-image: url(../img/fondo-arena2.png);
+		background-repeat: repeat;
+	}
+	.mainPromo h3{
+		background-color: rgba(117, 177, 172, 1);
+	}
+		/*----media para NOSOTRES----*/
+	.mainNos{
+		background-image: url(../img/fondo-arena2.png);
+		background-repeat: repeat;
+	}
+
+	.mainNos li{
+		list-style: none;
+	}
+
+	.mainNos img{
+		width: 95%;
+	}
+
+	.mainNos article{
+		display: none;
+	}
+
+	/*----media para CONTACTO----*/
+	.mainContacto{
+		background-image: url(../img/fondo-arena2.png);
+		background-repeat: repeat;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	} 	
+
+	.mainContacto ul{
+		background-color: rgba(242, 198, 193, 1);
+		font-size: 1rem;
+		font-weight: 500;
+		align-content: space-between;
+	}
+
+	.mainContacto h3{
+			display: none;
+	}
+
+	.mainContacto p{
+		font-size: 1.5rem;
+	}
+
+	.mainContacto img{
+		width: 80%;
+		padding: 5%;
+	}
+
+	.mainContacto form{
+		width: 85%;
+		font-size: 1rem;
+		flex-direction: row;
+		align-content: space-between;
+	}
+}
+
+/*dispositivos tipo CELS - CHICOS - INDEX-*/
+
+@media (max-width: 375px) {
+	.nav{
+		flex-direction: row;
+	}
+
+	.nav a{
+		padding: 3px;
+		font-weight: 600;
+		font-size: 1rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-content: center;
+	}
+
+	.nav img{
+		width: 50%;
+		font-size: 3rem;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.header { 
+		background-color: rgba(165, 112, 101, 1);
+		text-align: center;
+		margin: 1rem;
+	}
+
+	.header h1{
+	/*--unidad de MEDIDA RELATIVA - 1rem -> 16px--*/
+		margin: 1rem;
+		font-size: 2rem;
+	}
+	.header h2{
+		border-bottom: solid rgba(242, 48, 4, 1); 3px;
+		font-size: 1.5rem;
+	}
+
+	.imgSg{
+		display: none;
+	}
+
+	.aside p{
+		background-color: rgba(2, 140, 89, 1);;
+	}
+
+	.footer h3{
+		background-color: rgba(117, 177, 172, 1);;
+	}
+
+		/*----media para MENU----*/
+	.mainMenug h1{
+		font-size: 1.5rem;
+	}
+	.mainMenug h2{
+		font-size: 1rem;
+		background-color: rgba(214, 212, 142, 1);
+		color: rgba(4, 40, 63, 1);;
+	}
+
+		/*----media para PROMOS----*/
+	.mainPromo{
+		background-image: url(../img/fondo-arena2.png);
+	}
+	.mainPromo h3{
+		background-color: rgba(117, 177, 172, 1);
+	}
+	.mainPromo p{
+		display: none;
+	}
+
+		/*----media para NOSOTRES----*/
+	.mainNos p{
+		display: none ;
+	}
+	.mainNos li{
+		font-size: 60%;
+		font-weight: 600;
+		align-items: flex-start;
+	}
+}
+
+@media (max-width: 320px) {
+	.nav{
+		flex-direction: column;
+	}
+
+	.nav img{
+		font-size: 20%;
+		justify-items: center;
+	}
+
+	.nav a{
+		font-size: 80%;
+	}
+
+	.header{
+		font-size: 1rem;
+		width: 50%;
+	}
+
+	.header h1{
+		font-size: 1rem;
+	}
+	.header h2{
+		font-size: 1rem;
+	}
+
+	.aside p{
+		display: none;
+	}
+
+	.mainContacto img{
+		display: none;
+	}
+
+	.mainContacto article{
+		font-size: 30%;
+		justify-items: center;
+	}
+	.mainContacto h2{
+		font-size: 1.5rem;
+	}
+
+}
+
+/*-----ANIMACIONES-TRANSFORMACIONES-TRANSICIONES-----*/
+
+.rotate:hover{
+	transform: rotateZ(-360deg);
+	cursor: pointer;
+	transition: transform 1s;	
+}
+
+@keyframes headerAnimation{
+	0%{background-color: rgba(2, 140, 89, 1);}
+	25%{background-color: rgba(2, 114, 73, 1);}
+	50%{background-color: rgba(1, 89, 57, 1);}
+	75%{background-color: rgba(2, 114, 73, 1);}
+	100%{background-color: rgba(2, 140, 89, 1);}
+}
+
+.headerAnimation{
+	animation-name: headerAnimation;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+}
+
+
