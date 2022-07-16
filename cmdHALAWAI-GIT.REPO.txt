@@ -1,0 +1,217 @@
+Microsoft Windows [Versión 10.0.19044.1826]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git init
+Initialized empty Git repository in C:/Users/MAILEN SZPYRKA/OneDrive/Escritorio/HALAWAI-GIT.REPO/.git/
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        HALAWAI+SZPYRKA.zip
+        HALAWAI-GIT.REPO/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git add .
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git commit -m "subida Halawai GIT"
+[master (root-commit) 8b4f518] subida Halawai GIT
+ 64 files changed, 1141 insertions(+)
+ create mode 100644 HALAWAI+SZPYRKA.zip
+ create mode 100644 HALAWAI-GIT.REPO/contacto.html
+ create mode 100644 HALAWAI-GIT.REPO/css/style.css
+ create mode 100644 HALAWAI-GIT.REPO/img/barra-birras.png
+ create mode 100644 HALAWAI-GIT.REPO/img/barra-gente.png
+ create mode 100644 HALAWAI-GIT.REPO/img/barra-osos.png
+ create mode 100644 HALAWAI-GIT.REPO/img/birra-servir.png
+ create mode 100644 HALAWAI-GIT.REPO/img/birras-hala.png
+ create mode 100644 HALAWAI-GIT.REPO/img/birras.png
+ create mode 100644 "HALAWAI-GIT.REPO/img/bu\303\261uelos.png"
+ create mode 100644 HALAWAI-GIT.REPO/img/calle-dia-gente.png
+ create mode 100644 HALAWAI-GIT.REPO/img/car.png
+ create mode 100644 HALAWAI-GIT.REPO/img/esquina-local.png
+ create mode 100644 HALAWAI-GIT.REPO/img/falafel.png
+ create mode 100644 HALAWAI-GIT.REPO/img/favicon.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fondo-arena.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fondo-arena2.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fondo-ave.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fondo-azul.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fondo-dibujos.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fondo-frenti.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fondo-mar.png
+ create mode 100644 HALAWAI-GIT.REPO/img/footer/facebook.png
+ create mode 100644 HALAWAI-GIT.REPO/img/footer/ig.png
+ create mode 100644 HALAWAI-GIT.REPO/img/frente.png
+ create mode 100644 HALAWAI-GIT.REPO/img/fritas.png
+ create mode 100644 HALAWAI-GIT.REPO/img/h-hongo-birra.png
+ create mode 100644 HALAWAI-GIT.REPO/img/h-hula.png
+ create mode 100644 HALAWAI-GIT.REPO/img/halagrid.png
+ create mode 100644 HALAWAI-GIT.REPO/img/hamburguesa.png
+ create mode 100644 HALAWAI-GIT.REPO/img/hawaiana.png
+ create mode 100644 HALAWAI-GIT.REPO/img/logo.png
+ create mode 100644 HALAWAI-GIT.REPO/img/mascara.png
+ create mode 100644 HALAWAI-GIT.REPO/img/menu-2.jpg
+ create mode 100644 HALAWAI-GIT.REPO/img/menu-bebidas.jpg
+ create mode 100644 HALAWAI-GIT.REPO/img/menu-bebidas.png
+ create mode 100644 HALAWAI-GIT.REPO/img/menu-burger.jpg
+ create mode 100644 HALAWAI-GIT.REPO/img/nuevos-tragos.png
+ create mode 100644 HALAWAI-GIT.REPO/img/palmeras.png
+ create mode 100644 HALAWAI-GIT.REPO/img/papa-frita.png
+ create mode 100644 HALAWAI-GIT.REPO/img/papas-birra.png
+ create mode 100644 HALAWAI-GIT.REPO/img/parrilla.png
+ create mode 100644 HALAWAI-GIT.REPO/img/promo.png
+ create mode 100644 HALAWAI-GIT.REPO/img/ron.png
+ create mode 100644 HALAWAI-GIT.REPO/img/salchi.png
+ create mode 100644 HALAWAI-GIT.REPO/img/sandwich.png
+ create mode 100644 HALAWAI-GIT.REPO/img/take-away.png
+ create mode 100644 HALAWAI-GIT.REPO/img/take.png
+ create mode 100644 HALAWAI-GIT.REPO/img/trago-rojo.png
+ create mode 100644 HALAWAI-GIT.REPO/img/tragos-barra.png
+ create mode 100644 HALAWAI-GIT.REPO/index.html
+ create mode 100644 HALAWAI-GIT.REPO/menu.html
+ create mode 100644 HALAWAI-GIT.REPO/nosotres.html
+ create mode 100644 HALAWAI-GIT.REPO/promociones.html
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Desktop/wireframe-desktop-contacto.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Desktop/wireframe-desktop-index.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Desktop/wireframe-desktop-menu.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Desktop/wireframe-desktop-nosotres.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Desktop/wireframe-desktop-promociones.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Mobile/wireframe-mobile-contacto.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Mobile/wireframe-mobile-index.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Mobile/wireframe-mobile-menu.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Mobile/wireframe-mobile-nosotres.jpg
+ create mode 100644 HALAWAI-GIT.REPO/wireframe/Mobile/wireframe-mobile-promociones.jpg
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git log --online
+fatal: unrecognized argument: --online
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git log --oneline
+8b4f518 (HEAD -> master) subida Halawai GIT
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HALAWAI-GIT.REPO/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git add .
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git commit -m "PRUEBA cambio h2 index"
+[master 43cc5a7] PRUEBA cambio h2 index
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git log --oneline
+43cc5a7 (HEAD -> master) PRUEBA cambio h2 index
+8b4f518 subida Halawai GIT
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HALAWAI-GIT.REPO/nosotres.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git add .
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git commit -m "PRUEBA2 cambio p div main Nosotres.html"
+[master 6d2e435] PRUEBA2 cambio p div main Nosotres.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git log --oneline
+6d2e435 (HEAD -> master) PRUEBA2 cambio p div main Nosotres.html
+43cc5a7 PRUEBA cambio h2 index
+8b4f518 subida Halawai GIT
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git checkout 43cc5a7
+Note: switching to '43cc5a7'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 43cc5a7 PRUEBA cambio h2 index
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git checkout 6d2e435
+Previous HEAD position was 43cc5a7 PRUEBA cambio h2 index
+HEAD is now at 6d2e435 PRUEBA2 cambio p div main Nosotres.html
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git log --oneline
+6d2e435 (HEAD, master) PRUEBA2 cambio p div main Nosotres.html
+43cc5a7 PRUEBA cambio h2 index
+8b4f518 subida Halawai GIT
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git branch seo
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git branch -l
+* (HEAD detached at 6d2e435)
+  master
+  seo
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git checkout seo
+Switched to branch 'seo'
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git branch -l
+  master
+* seo
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git branch animaciones
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git checkout animaciones
+Switched to branch 'animaciones'
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git log --oneline
+6d2e435 (HEAD -> animaciones, seo, master) PRUEBA2 cambio p div main Nosotres.html
+43cc5a7 PRUEBA cambio h2 index
+8b4f518 subida Halawai GIT
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git status
+On branch animaciones
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HALAWAI-GIT.REPO/contacto.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git add .
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git commit -m "animacion logo contacto"
+[animaciones 83ec584] animacion logo contacto
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git log --oneline
+83ec584 (HEAD -> animaciones) animacion logo contacto
+6d2e435 (seo, master) PRUEBA2 cambio p div main Nosotres.html
+43cc5a7 PRUEBA cambio h2 index
+8b4f518 subida Halawai GIT
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git checkout master
+Switched to branch 'master'
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>git merge animaciones
+Updating 6d2e435..83ec584
+Fast-forward
+ HALAWAI-GIT.REPO/contacto.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\MAILEN SZPYRKA\OneDrive\Escritorio\HALAWAI-GIT.REPO>
